@@ -1,0 +1,20 @@
+{
+  "platform": "nodejs",
+  "version": "20",
+  "app": "tahlilgar-jame",
+  "port": 3000,
+  "scripts": {
+    "build": "npm run build",
+    "start": "npm run start"
+  },
+  "envs": {
+    "NODE_ENV": "production"
+  },
+  "disks": [
+    {
+      "name": "app-cache",
+      "mountTo": ".cache",
+      "size": 1
+    }
+  ]
+}
